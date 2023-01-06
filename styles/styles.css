@@ -1,0 +1,52 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #007765;
+    position: sticky;
+    z-index: 1;
+}
+
+.header__wrapper {
+    width: 1109px;
+    padding-left: 55px;
+    padding-right: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__logo {
+    background-image: url("/img/vector_1.svg");
+    background-size: 100% 100%;
+}
+
+.header__wrapper nav, .header_nav_anchor {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.header__wrapper nav ul {
+    display: flex;
+    margin: 0 -4px;
+}
+
+.header__wrapper nav ul li {
+    margin: 0 4px;
+}
+
+.header_nav_anchor:link {
+    text-decoration: none;
+}
+
+.header_nav_anchor:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    text-decoration: underline;
+}
