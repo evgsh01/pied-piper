@@ -2,26 +2,37 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+strong { 
+    font-weight: bold; 
+}
+
+em {
+    font-style: italic;
+}
+
 header {
     background-color: #007765;
     position: sticky;
     z-index: 1;
 }
 
-.header__wrapper {
+.header__wrapper, .isHere__wrapper h1, .problem__wrapper, .introduc__wrapper {
     width: 1109px;
     padding-left: 55px;
     padding-right: 55px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin-left: auto;
     margin-right: auto;
 }
 
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .header__logo {
-    background-image: url("/img/vector_1.svg");
-    background-size: 100% 100%;
+    padding-top: 19px;
+    padding-bottom: 19px;
 }
 
 .header__wrapper nav, .header_nav_anchor {
@@ -49,4 +60,169 @@ header {
     cursor: pointer;
     opacity: 0.5;
     text-decoration: underline;
+}
+
+.isHere {
+    background-image: url(/img/image_1.png);
+    background-size: cover; 
+    background-position: center;  
+}
+
+.isHere__wrapper h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.problem {
+    background-color: #EEEEEE;
+}
+
+.problem__wrapper {
+    padding-top: 48px;
+    padding-bottom: 92px;
+}
+.problem__wrapper h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+    padding-bottom: 16px;
+}
+
+.problem__wrapper p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.statement {
+    background-image: url(/img/image_2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.statement__wrapper {
+    width: 893px;
+    padding: 128px 163px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.statement__wrapper p {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.introduc__wrapper h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+    padding-top: 48px;
+    padding-bottom: 16px;
+}
+
+.introduc__wrapper img {
+    float: left;
+    margin-right: 48px;
+}
+
+.introduc__wrapper p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.introduc__wrapper p:last-child {
+    margin-bottom: 92px;
+}
+
+.team {
+    background: #EEEEEE;
+}
+
+.team__wrapper {
+    width: 929px;
+    padding: 48px 145px 122px 145px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team__wrapper h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+    margin-bottom: 56px;
+}
+
+.team__unit_name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #007765;
+}
+
+.team__unit_position {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.team__unit_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 212px;
+    grid-row-gap: 82px;
+}
+
+.team__unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    background: #333333;
+}
+
+.footer__wrapper {
+    width: 539px;
+    padding: 48px 340px 64px 340px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer__wrapper p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
 }
