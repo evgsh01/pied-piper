@@ -35,6 +35,10 @@ header {
     padding-bottom: 19px;
 }
 
+.logo_part {
+    position: absolute;
+}
+
 .header__wrapper nav, .header_nav_anchor {
     font-style: normal;
     font-weight: 500;
@@ -194,17 +198,21 @@ header {
     color: #000000;
 }
 
-.team__unit_wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 212px;
-    grid-row-gap: 82px;
-}
-
 .team__unit {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.team__unit img {
+    padding-bottom: 12px;
+}
+
+.team__unit_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 180px;
+    grid-row-gap: 82px;
 }
 
 footer {

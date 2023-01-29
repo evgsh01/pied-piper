@@ -14,18 +14,18 @@
 <body>
     <header>
         <div class="header__wrapper">
-            <div class="header__logo">
-                <img src="img/vector_1.svg" alt="Logo">
+            <div class="header__logo" id="logo">
+                <img class="logo_part" src="img/vector_1.svg" alt="Logo">
                 <img src="img/vector_2.svg" alt="Logo">
             </div> 
 
             <nav>
                 <ul>
-                    <li><a href="#" class="header_nav_anchor">the problem</a></li>
+                    <li><a href="#problem" class="header_nav_anchor">the problem</a></li>
                     <li>|</li>
-                    <li><a href="#" class="header_nav_anchor">PiedPiperCoin</a></li>
+                    <li><a href="#introduc" class="header_nav_anchor">PiedPiperCoin</a></li>
                     <li>|</li>
-                    <li><a href="#" class="header_nav_anchor">the team</a></li>
+                    <li><a href="#team" class="header_nav_anchor">the team</a></li>
                 </ul>
             </nav>
         </div>
@@ -37,11 +37,11 @@
         </div>
     </section>
 
-    <section class="problem">
+    <section class="problem" id="problem">
         <div class="problem__wrapper">
             <h2>The Problem</h2>
 
-            <p>Beneath the flashy homepages of your favorite sites lurk Hooli™ and other evil corporations out to hoard and sell your most personal data.</p>
+            <p>Beneath the flashy homepages of your favorite sites lurk Hooli&trade; and other evil corporations out to hoard and sell your most personal data.</p>
             <br>
             <p>What was built to be the ultimate platform for the free sharing of knowledge has turned into a money-hungry monster feasting on our privacy and freedom.</p>
             <br>    
@@ -57,11 +57,11 @@
         </div>
     </section>    
 
-    <section class="introduc">
+    <section class="introduc" id="introduc">
         <div class="introduc__wrapper">
             <h2>Introducing PiedPiperCoin</h2>
 
-            <img src="img/ppc logo.png" alt="PiedPiper Coin">
+            <a href="#logo"><img src="img/ppc logo.png" alt="PiedPiper Coin"></a>
 
             <p>Pied Piper's new internet is built <em>for users, by users</em>. You supply the storage, compute, and networking resources that power our entire decentralized web.</p>
 
@@ -71,7 +71,7 @@
         </div>
     </section>
 
-    <section class="team">
+    <section class="team" id="team">
         <div class="team__wrapper">
             <h2>The Team</h2>
 
@@ -120,6 +120,8 @@
         <div class="footer__wrapper">
             <p>All other trademarks and copyrights are the property of their respective owners. Use of these names, trademarks and brands does not imply endorsement.</p>
         </div>
-    </footer>    
+    </footer>
+
+    <script src="scripts/scripts.js"></script>
 </body>
 </html>
