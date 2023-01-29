@@ -12,8 +12,6 @@ em {
 
 header {
     background-color: #007765;
-    position: sticky;
-    z-index: 1;
 }
 
 .header__wrapper, .isHere__wrapper h1, .problem__wrapper, .introduc__wrapper {
