@@ -65,7 +65,7 @@ header {
 }
 
 .isHere {
-    background-image: url(/img/image_1.png);
+    background-image: url(../img/image_1.png);
     background-size: cover; 
     background-position: center;  
 }
@@ -109,7 +109,7 @@ header {
 }
 
 .statement {
-    background-image: url(/img/image_2.png);
+    background-image: url(../img/image_2.png);
     background-size: cover;
     background-position: center;
 }
